@@ -28,3 +28,5 @@ def time_string(hours, minutes, time_format):
             time = f'{hours}:{minutes}am'
             return time
 print(time_string(19, 2, '12'))
+print(time_string(15, 38, '24'))
+print(time_string(11, 15, '12'))
